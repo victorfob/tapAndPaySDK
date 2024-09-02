@@ -1,3 +1,0 @@
-install: 
-FILE="-Dfile=tapAndPaySDK-18.3.3.aar" 
-mvn install:install-file $FILE -DgroupId=com.google.android.gms -DartifactId=tapAndPaySDK -Dversion=18.3.3 -Dpackaging=aar -DpomFile=pom.xml
